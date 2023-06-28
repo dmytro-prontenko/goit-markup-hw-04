@@ -15,7 +15,11 @@
   --ls-big: 0.04em;
 }
 
-/** COMMON */
+/*
+│ =========================
+│         COMMON
+│ =========================
+*/
 /* #region COMMON*/
 body {
   font-family: Roboto, sans-serif;
@@ -101,7 +105,11 @@ img {
 
 /*#endregion COMMON*/
 
-/** HEADER */
+/*
+│ =========================
+│          HEADER
+│ =========================
+*/
 /* #region HEADER*/
 
 /** --Logo */
@@ -191,7 +199,11 @@ img {
 /* #endregion NAVIGATION */
 /* #endregion HEADER */
 
-/** FOOTER */
+/*
+│ =========================
+│          FOOTER
+│ =========================
+*/
 /* #region FOOTER*/
 
 .footer {
@@ -213,7 +225,11 @@ img {
 }
 /* #endregion FOOTER */
 
-/** INDEX */
+/*
+│ =========================
+│       index.html
+│ =========================
+*/
 /* #region INDEX*/
 
 /** MAIN */
@@ -233,15 +249,21 @@ img {
 
 .hero {
   /* padding-top: 188px;
-  padding-bottom: 188px;
+  padding-bottom: 188px; */
+  max-width: 1440px;
+  margin: 0 auto;
 
-  background-color: var(--main-text); */
+  background-color: var(--main-text);
 
-  background-image: url("../images/png/hero-bg.png"),
+  background-image: linear-gradient(
+      to right,
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
     url("../images/office.jpeg");
   background-position: center;
-  background-size: 1440px;
   background-repeat: no-repeat no-repeat;
+  background-size: 1440px;
   color: #ffffff;
 }
 
@@ -357,7 +379,11 @@ img {
 }
 /* #endregion TEAM */
 /* #endregion INDEX */
-/** PORTFOLIO */
+/*
+│ =========================
+│     portfolio.html
+│ =========================
+*/
 /* #region PORTFOLIO*/
 
 /** MAIN */
