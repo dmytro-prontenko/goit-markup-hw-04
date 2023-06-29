@@ -520,10 +520,6 @@ img {
   padding: 16px 32px;
 }
 
-.customer-link:hover {
-  border-color: var(--action-color);
-}
-
 .customer-link {
   display: flex;
   justify-content: center;
@@ -536,6 +532,11 @@ img {
   border: 1px solid #8e8f99;
 
   color: var(--icon-customer-color);
+}
+
+.customer-link:hover,
+.customer-link:focus {
+  border-color: var(--action-color);
 }
 
 .customer-icon {
