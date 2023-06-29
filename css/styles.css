@@ -103,6 +103,35 @@ img {
   padding-right: 15px;
 }
 
+.social-list {
+  display: flex;
+  justify-content: center;
+  margin-top: 8px;
+}
+
+.social-item {
+  width: 40px;
+  height: 40px;
+  padding-top: 12px;
+  background-color: var(--accent-color);
+  border-radius: 50%;
+}
+
+.social-item:hover {
+  background-color: var(--action-color);
+  cursor: pointer;
+}
+
+.icon-social {
+  width: 16px;
+  height: 16px;
+}
+
+.social-link {
+  display: block;
+  width: 100%;
+}
+
 /*#endregion COMMON*/
 
 /*
@@ -211,9 +240,23 @@ img {
 /* #region FOOTER*/
 
 .footer {
+  display: flex;
+  gap: 120px;
+
+  padding-left: 156px;
   padding-top: 100px;
   padding-bottom: 100px;
   background: var(--main-text);
+}
+
+.footer-container {
+  width: 264px;
+  margin: 0;
+}
+
+.footer-social {
+  gap: 16px;
+  text-align: center;
 }
 
 .footer-description {
@@ -226,6 +269,25 @@ img {
 .footer-link {
   display: inline-block;
   margin-bottom: 16px;
+}
+
+.footer-social .section-subtitle {
+  font-size: 16px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+  text-align: left;
+  margin-bottom: 16px;
+}
+
+.footer .social-item {
+  padding: 8px;
+}
+.footer .icon-social {
+  width: 24px;
+  height: 24px;
 }
 /* #endregion FOOTER */
 
@@ -428,35 +490,10 @@ img {
   text-align: center;
 }
 
-.team-social-list {
-  display: flex;
-  justify-content: center;
+.team-social {
   gap: 24px;
-  margin-top: 8px;
-}
-.teammate-social-link {
-  display: inline-block;
-  width: 100%;
-  height: 100%;
 }
 
-.team-social-item {
-  width: 40px;
-  height: 40px;
-  padding-top: 12px;
-  background-color: var(--accent-color);
-  border-radius: 50%;
-}
-
-.team-social-item:hover {
-  background-color: var(--action-color);
-  cursor: pointer;
-}
-
-.icon-social {
-  width: 16px;
-  height: 16px;
-}
 /* #endregion TEAM */
 
 /*
