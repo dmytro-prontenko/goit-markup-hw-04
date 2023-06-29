@@ -7,6 +7,7 @@
   --accent-color: #4d5ae5;
   --main-color: #434455;
   --action-color: #404bbf;
+  --social-active: #31d0aa;
   --icon-customer-color: #8e8f99;
   --portfolio-btn-brd: #e7e9fc;
   --description-size: 16px;
@@ -118,8 +119,9 @@ img {
   border-radius: 50%;
 }
 
-.social-item:hover {
-  background-color: var(--action-color);
+.social-item:hover,
+.social-item:focus {
+  background-color: var(--social-active);
   cursor: pointer;
 }
 
@@ -262,7 +264,7 @@ img {
 
 .footer-container {
   width: 264px;
-  margin-right: 120;
+  margin-right: 120px;
 }
 
 .footer-social {
@@ -291,6 +293,7 @@ img {
   letter-spacing: 0.32px;
   text-align: left;
   margin-bottom: 16px;
+  color: #ffffff;
 }
 
 .footer .social-item {
