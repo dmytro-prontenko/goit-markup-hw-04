@@ -326,14 +326,13 @@ img {
   background-color: gba(46, 47, 66, 0.7);
 
   background-image: linear-gradient(
-      to right,
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
     url("../images/office.jpeg");
   background-position: center;
   background-repeat: no-repeat no-repeat;
-  background-size: 1440px;
+  background-size: cover;
   color: #ffffff;
 }
 
@@ -505,8 +504,7 @@ img {
     */
 /* #region CUSTOMERS*/
 .customers-section {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding: 120px 0;
 }
 
 .customers-list {
@@ -516,8 +514,6 @@ img {
 }
 
 .customer-item {
-  border-radius: 4px;
-  border: 1px solid #8e8f99;
   width: 168px;
   height: 88px;
   padding: 16px 32px;
@@ -527,10 +523,15 @@ img {
   border-color: var(--action-color);
 }
 
+.customer-link {
+  width: 100%;
+  height: 100%;
+  border-radius: 4px;
+  border: 1px solid #8e8f99;
+}
+
 .customer-icon {
-  width: 104px;
-  height: 56px;
-  fill: #8e8f99;
+  fill: currentColor;
 }
 
 .customer-icon:hover {
