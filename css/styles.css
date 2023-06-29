@@ -252,6 +252,11 @@ img {
   background: var(--main-text);
 }
 
+.footer-wrapper {
+  display: flex;
+  gap: 120px;
+}
+
 .footer-container {
   width: 264px;
   margin: 0;
@@ -537,6 +542,7 @@ img {
 .customer-link:hover,
 .customer-link:focus {
   border-color: var(--action-color);
+  color: var(--action-color);
 }
 
 .customer-icon {
