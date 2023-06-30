@@ -114,6 +114,7 @@ img {
 .social-item {
   width: 40px;
   height: 40px;
+  border-radius: 50%;
 }
 
 .social-item:hover,
@@ -513,6 +514,11 @@ img {
 
 .team-social {
   gap: 24px;
+}
+
+.team-social .social-link:hover,
+.team-social .social-link:focus {
+  background-color: var(--action-color);
 }
 
 /* #endregion TEAM */
