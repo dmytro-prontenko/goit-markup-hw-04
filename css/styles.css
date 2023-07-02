@@ -265,13 +265,13 @@ img {
 
 .footer-wrapper {
   display: flex;
-  gap: 120px;
   align-items: baseline;
 }
 
 .footer-container {
   box-sizing: content-box;
   width: 264px;
+  margin-right: 120px;
 }
 
 .footer-social {
