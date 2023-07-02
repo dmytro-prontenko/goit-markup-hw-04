@@ -279,7 +279,6 @@ img {
 }
 
 .footer-description {
-  max-width: 264px;
   color: #f4f4fd;
   line-height: var(--description-height);
   letter-spacing: var(--ls-small);
