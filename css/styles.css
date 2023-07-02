@@ -265,18 +265,17 @@ img {
 
 .footer-wrapper {
   display: flex;
-  /* gap: 120px; */
+  gap: 120px;
   align-items: baseline;
 }
 
 .footer-container {
+  box-sizing: content-box;
   width: 264px;
-  margin-right: 120px;
 }
 
 .footer-social {
   gap: 16px;
-  text-align: center;
 }
 
 .footer-description {
@@ -304,10 +303,10 @@ img {
 }
 
 .footer .social-item {
-  /* padding: 8px; */
   border-radius: 50%;
   background-color: var(--accent-color);
 }
+
 .footer .icon-social {
   width: 24px;
   height: 24px;
@@ -333,16 +332,14 @@ img {
   flex-direction: column;
   align-items: center;
   gap: 48px;
-  height: 600px;
-  /* margin: 0 auto 48px; */
-  /* align-items: center; */
+  /* height: 600px; */
 }
 
 .hero {
-  /* padding-top: 188px;
-  padding-bottom: 188px; */
   max-width: 1440px;
   margin: 0 auto;
+  padding-bottom: 188px;
+  padding-top: 188px;
 
   background-color: gba(46, 47, 66, 0.7);
 
@@ -359,7 +356,6 @@ img {
 
 .hero-title {
   max-width: 496px;
-  margin-top: auto;
 
   font-size: 56px;
   line-height: 1.07;
@@ -369,7 +365,6 @@ img {
 .hero-button {
   display: block;
   min-width: 169px;
-  margin-bottom: auto;
   height: 56px;
   border: none;
   border-radius: 4px;
@@ -406,12 +401,9 @@ img {
   display: flex;
 }
 
-/*  */
-
 .features-list {
   display: flex;
   gap: 24px;
-  /* padding-left: 0; */
 }
 
 .feature-item {
@@ -451,7 +443,6 @@ img {
   display: flex;
   flex-direction: row;
   gap: 24px;
-  /* padding-left: 0; */
 }
 
 .solution-item {
@@ -528,7 +519,6 @@ img {
 .customer-item {
   width: calc((100% - 120px) / 6);
   height: 88px;
-  /* padding: 16px 32px; */
 }
 
 .customer-link {
@@ -550,7 +540,6 @@ img {
   border-color: var(--action-color);
   color: var(--action-color);
 }
-
 .customer-icon {
   fill: currentColor;
 }
@@ -587,7 +576,6 @@ img {
   display: flex;
   flex-wrap: wrap;
   gap: 48px 24px;
-  /* padding-left: 0; */
 }
 
 .portfolio-item {
@@ -651,5 +639,4 @@ img {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
-/** SECTION */
 /* #endregion PORTFOLIO */
